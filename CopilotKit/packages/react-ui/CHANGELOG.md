@@ -1,5 +1,102 @@
 # ui
 
+## 1.7.2-next.0
+
+### Patch Changes
+
+- @copilotkit/runtime-client-gql@1.7.2-next.0
+- @copilotkit/react-core@1.7.2-next.0
+- @copilotkit/shared@1.7.2-next.0
+
+## 1.7.1
+
+### Patch Changes
+
+- @copilotkit/runtime-client-gql@1.7.1
+- @copilotkit/react-core@1.7.1
+- @copilotkit/shared@1.7.1
+
+## 1.7.1-next.0
+
+### Patch Changes
+
+- @copilotkit/runtime-client-gql@1.7.1-next.0
+- @copilotkit/react-core@1.7.1-next.0
+- @copilotkit/shared@1.7.1-next.0
+
+## 1.7.0
+
+### Patch Changes
+
+- @copilotkit/runtime-client-gql@1.7.0
+- @copilotkit/react-core@1.7.0
+- @copilotkit/shared@1.7.0
+
+## 1.7.0-next.1
+
+### Patch Changes
+
+- @copilotkit/runtime-client-gql@1.7.0-next.1
+- @copilotkit/react-core@1.7.0-next.1
+- @copilotkit/shared@1.7.0-next.1
+
+## 1.7.0-next.0
+
+### Patch Changes
+
+- @copilotkit/runtime-client-gql@1.7.0-next.0
+- @copilotkit/react-core@1.7.0-next.0
+- @copilotkit/shared@1.7.0-next.0
+
+## 1.6.0
+
+### Patch Changes
+
+- c1cc77f: - feat: new useCopilotAdditionalInstructions hook and available property on useCopilotReadable
+- Updated dependencies [d833f4c]
+- Updated dependencies [090203d]
+- Updated dependencies [d800f03]
+- Updated dependencies [85753b3]
+- Updated dependencies [7d061d9]
+- Updated dependencies [b454827]
+- Updated dependencies [c1cc77f]
+  - @copilotkit/react-core@1.6.0
+  - @copilotkit/runtime-client-gql@1.6.0
+  - @copilotkit/shared@1.6.0
+
+## 1.6.0-next.12
+
+### Patch Changes
+
+- @copilotkit/runtime-client-gql@1.6.0-next.12
+- @copilotkit/react-core@1.6.0-next.12
+- @copilotkit/shared@1.6.0-next.12
+
+## 1.6.0-next.11
+
+### Patch Changes
+
+- Updated dependencies [85753b3]
+  - @copilotkit/react-core@1.6.0-next.11
+  - @copilotkit/runtime-client-gql@1.6.0-next.11
+  - @copilotkit/shared@1.6.0-next.11
+
+## 1.6.0-next.10
+
+### Patch Changes
+
+- @copilotkit/runtime-client-gql@1.6.0-next.10
+- @copilotkit/react-core@1.6.0-next.10
+- @copilotkit/shared@1.6.0-next.10
+
+## 1.6.0-next.9
+
+### Patch Changes
+
+- @copilotkit/runtime-client-gql@1.6.0-next.9
+- @copilotkit/react-core@1.6.0-next.9
+- @copilotkit/shared@1.6.0-next.9
+
 ## 1.6.0-next.8
 
 ### Patch Changes

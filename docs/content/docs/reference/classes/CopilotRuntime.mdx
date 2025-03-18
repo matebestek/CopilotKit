@@ -48,7 +48,7 @@ Middleware to be used by the runtime.
 </PropertyReference>
 
 <PropertyReference name="actions" type="ActionsConfiguration<T>"  > 
-A list of server side actions that can be executed.
+A list of server side actions that can be executed. Will be ignored when remoteActions are set
 </PropertyReference>
 
 <PropertyReference name="remoteActions" type="CopilotKitEndpoint[]"  > 
@@ -68,6 +68,28 @@ Delegates agent state processing to the service adapter.
  
   When enabled, individual agent state requests will not be processed by the agent itself.
   Instead, all processing will be handled by the service adapter.
+</PropertyReference>
+
+<PropertyReference name="observability_c" type="CopilotObservabilityConfig"  > 
+Configuration for LLM request/response logging.
+  Requires publicApiKey from CopilotKit component to be set:
+ 
+  ```tsx
+  <CopilotKit publicApiKey="ck_pub_..." />
+  ```
+ 
+  Example logging config:
+  ```ts
+  logging: {
+    enabled: true, // Enable or disable logging
+    progressive: true, // Set to false for buffered logging
+    logger: {
+      logRequest: (data) => langfuse.trace({ name: "LLM Request", input: data }),
+      logResponse: (data) => langfuse.trace({ name: "LLM Response", output: data }),
+      logError: (errorData) => langfuse.trace({ name: "LLM Error", metadata: errorData }),
+    },
+  }
+  ```
 </PropertyReference>
 
 <PropertyReference name="processRuntimeRequest" type="request: CopilotRuntimeRequest">

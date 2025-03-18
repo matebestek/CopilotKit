@@ -1,5 +1,97 @@
 # ui
 
+## 1.7.2-next.0
+
+### Patch Changes
+
+- @copilotkit/runtime-client-gql@1.7.2-next.0
+- @copilotkit/shared@1.7.2-next.0
+
+## 1.7.1
+
+### Patch Changes
+
+- @copilotkit/runtime-client-gql@1.7.1
+- @copilotkit/shared@1.7.1
+
+## 1.7.1-next.0
+
+### Patch Changes
+
+- @copilotkit/runtime-client-gql@1.7.1-next.0
+- @copilotkit/shared@1.7.1-next.0
+
+## 1.7.0
+
+### Patch Changes
+
+- @copilotkit/runtime-client-gql@1.7.0
+- @copilotkit/shared@1.7.0
+
+## 1.7.0-next.1
+
+### Patch Changes
+
+- @copilotkit/runtime-client-gql@1.7.0-next.1
+- @copilotkit/shared@1.7.0-next.1
+
+## 1.7.0-next.0
+
+### Patch Changes
+
+- @copilotkit/runtime-client-gql@1.7.0-next.0
+- @copilotkit/shared@1.7.0-next.0
+
+## 1.6.0
+
+### Minor Changes
+
+- 7d061d9: - feat(configurable): execute langgraph with user config
+
+### Patch Changes
+
+- d833f4c: - fix: provide the ability to type interrupt event value
+- d800f03: - fix: use memoization in useCoAgent internal functions
+- 85753b3: - feat(actions): enable restricting actions to frontend only
+- b454827: - fix: simplify condition options for langgraph interrupts
+  - chore: add new enabled to e2e tests
+  - fix: refine argument types
+  - chore: document hook API reference
+- c1cc77f: - feat: new useCopilotAdditionalInstructions hook and available property on useCopilotReadable
+- Updated dependencies [d833f4c]
+- Updated dependencies [090203d]
+  - @copilotkit/runtime-client-gql@1.6.0
+  - @copilotkit/shared@1.6.0
+
+## 1.6.0-next.12
+
+### Patch Changes
+
+- @copilotkit/runtime-client-gql@1.6.0-next.12
+- @copilotkit/shared@1.6.0-next.12
+
+## 1.6.0-next.11
+
+### Patch Changes
+
+- 85753b3: - feat(actions): enable restricting actions to frontend only
+  - @copilotkit/runtime-client-gql@1.6.0-next.11
+  - @copilotkit/shared@1.6.0-next.11
+
+## 1.6.0-next.10
+
+### Patch Changes
+
+- @copilotkit/runtime-client-gql@1.6.0-next.10
+- @copilotkit/shared@1.6.0-next.10
+
+## 1.6.0-next.9
+
+### Patch Changes
+
+- @copilotkit/runtime-client-gql@1.6.0-next.9
+- @copilotkit/shared@1.6.0-next.9
+
 ## 1.6.0-next.8
 
 ### Patch Changes

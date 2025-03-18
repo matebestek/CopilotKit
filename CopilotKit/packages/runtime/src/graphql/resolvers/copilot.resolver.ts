@@ -196,6 +196,10 @@ export class CopilotResolver {
       rejectOutputMessagesPromise = reject;
     });
 
+    if (copilotCloudPublicApiKey) {
+      ctx.properties["copilotCloudPublicApiKey"] = copilotCloudPublicApiKey;
+    }
+
     logger.debug("Processing");
     const {
       eventSource,
@@ -212,7 +216,7 @@ export class CopilotResolver {
       ),
       threadId: data.threadId,
       runId: data.runId,
-      publicApiKey: undefined,
+      publicApiKey: copilotCloudPublicApiKey,
       outputMessagesPromise,
       graphqlContext: ctx,
       forwardedParameters: data.forwardedParameters,
